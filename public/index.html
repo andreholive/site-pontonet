@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="andreolive@live.com">
+    <meta name="description" content="Provedor de internet banda larga de fibra ótica (óptica) rápida">
+    <meta name="keywords" content="pontonet, ponto net, internet, planos de internet, internet fixa, banda larga, fibra, fibra otica, fibra optica, internet wifi, sombrio, balneário gaivota, santa rosa do sul, jacinto machado, praia grande, sao joao do sul, mampituba">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Pontonet Internet Banda Larga | Internet de Fibra Óptica Rápida</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script>
+      $(function(){
+    var shrinkHeader = 300;
+     $(window).scroll(function() {
+       var scroll = getCurrentScroll();
+         if ( scroll >= shrinkHeader ) {
+              $('.header').addClass('shrink');
+           }
+           else {
+               $('.header').removeClass('shrink');
+           }
+     });
+   function getCurrentScroll() {
+       return window.pageYOffset || document.documentElement.scrollTop;
+       }
+   });
+  </script>
+  </body>
+</html>
