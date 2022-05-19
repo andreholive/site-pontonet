@@ -83,7 +83,7 @@ function App() {
                 <a class="nav-link" href="#faq">FAQ</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#roadmap">Teste de Velocidade</a>
+                <a class="nav-link" href="#velocidade">Teste de Velocidade</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contact">Contato</a>
@@ -119,6 +119,14 @@ function App() {
       </div>
       <a name="faq"></a>
       <Faq />
+      <a name="velocidade"></a>
+      <div className='velocidade'>
+      <div className='title'>
+        <span>Teste de Velocidade</span>
+        <h1>Teste a velocidade da sua internet abaixo:</h1>
+      </div>
+      <iframe width="100%" height="650px" frameBorder="0" src="https://pontonetsul.speedtestcustom.com" />
+      </div>
       <a name="cobertura"></a>
       <div className='cobertura'>
       <div className='container area1'>

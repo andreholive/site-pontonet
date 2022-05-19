@@ -42,7 +42,6 @@ function Slider() {
       
       function nextSlide(){
         let slide = (activeSlide + 1) < slides.length ? activeSlide + 1 : 0;
-        console.log(slide)
         setActiveSlide(slide);
       }
   return (

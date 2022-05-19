@@ -172,15 +172,33 @@
     text-align: center!important;
 }
 
+.velocidade .title{
+    text-align: center!important;
+    margin-top: 50px;
+}
+
 .cobertura .title h1{
     font-size: 20px;
     color: #0058C6;
+}
+
+.velocidade .title h1{
+    font-size: 20px;
+    color: #FFF;
+    margin: 0 auto;
 }
 
 .cobertura .title span{
     color: #FFF;
     font-weight: 500;
     font-size: 20px;
+}
+
+.velocidade .title span{
+    color: #FFF;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0 auto;
 }
 
 .hamburguer-menu{
