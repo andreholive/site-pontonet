@@ -50,17 +50,13 @@ function App() {
           <a class="navbar-brand" href="#">
             <img className='dropBritnees' draggable="false" src={Logo} alt="PontoNet" width={200}></img>
           </a>
-          <div className='hamburguer-menu' onClick={openBigMenu}>
-        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="50px" height="50px" viewBox="0 0 124 124" >
-        
-        <g>
-        <path class="white" d="M112,6H12C5.4,6,0,11.4,0,18s5.4,12,12,12h100c6.6,0,12-5.4,12-12S118.6,6,112,6z"/>
-        <path class="white" d="M112,50H12C5.4,50,0,55.4,0,62c0,6.6,5.4,12,12,12h100c6.6,0,12-5.4,12-12C124,55.4,118.6,50,112,50z"/>
-        <path class="white" d="M112,94H12c-6.6,0-12,5.4-12,12s5.4,12,12,12h100c6.6,0,12-5.4,12-12S118.6,94,112,94z"/>
-        </g>
-
-        </svg>
-        </div>
+          <input type="checkbox" id="toggle"/>
+          <label class="checkbox" for="toggle">
+              <div class="trace"></div>
+              <div class="trace"></div>
+              <div class="trace"></div>
+          </label>
+          <div class="menu"></div>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item dropdown">
@@ -144,7 +140,8 @@ function App() {
           <div className='cidade'>São João do Sul</div>
         </div>
         <div className='img'>
-              <img draggable="false" src={imgMap} alt="Suporte"></img>
+              <img draggable="false" src={imgMap} alt="Suporte" />
+              
         </div>
         </div>
         </div>
