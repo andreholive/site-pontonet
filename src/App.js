@@ -27,24 +27,25 @@ function App() {
   }
   return (
     <div className="App">
-        <div className='big-menu' style={bigmenuState} >
-        <div className='hamburguer-menu' onClick={openBigMenu}>
-        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="50px" height="50px" viewBox="0 0 124 124" >
-        
-        <g>
-        <path class="white2" d="M112,6H12C5.4,6,0,11.4,0,18s5.4,12,12,12h100c6.6,0,12-5.4,12-12S118.6,6,112,6z"/>
-        <path class="white2" d="M112,50H12C5.4,50,0,55.4,0,62c0,6.6,5.4,12,12,12h100c6.6,0,12-5.4,12-12C124,55.4,118.6,50,112,50z"/>
-        <path class="white2" d="M112,94H12c-6.6,0-12,5.4-12,12s5.4,12,12,12h100c6.6,0,12-5.4,12-12S118.6,94,112,94z"/>
-        </g>
-
-        </svg>
-        </div>
-        <a class="bigmenu-item" href="https://ixc.pontonetsul.com.br/central_assinante_web">2ª Via do Boleto</a>
-        <a class="bigmenu-item" href="https://ixc.pontonetsul.com.br/central_assinante_web">Desbloqueio</a>
-        <a class="bigmenu-item" href="https://www.pontonetsul.com.br/downloads/contrato2020.pdf">Contrato</a>
-        <a class="bigmenu-item" href="tel:04835331778">Ligue agora</a>
-        <a class="bigmenu-item" href="https://wa.me/554835331778">Whataspp</a>
-        </div>
+        <nav class="menu-itens">
+          <ul>
+              <li>
+                <a href="https://ixc.pontonetsul.com.br/central_assinante_web">2ª Via do Boleto</a>
+              </li>
+              <li>
+                <a href="https://ixc.pontonetsul.com.br/central_assinante_web">Desbloqueio</a>
+              </li>
+              <li>
+                <a href="https://www.pontonetsul.com.br/downloads/contrato2020.pdf">Contrato</a>
+              </li>
+              <li>
+                <a href="tel:04835331778">Ligue agora</a>
+              </li>
+              <li>
+                <a href="https://wa.me/554835331778">Whataspp</a>
+              </li>
+          </ul>
+        </nav>
         <nav className="navbar navbar-expand-lg navbar-white fixed-top header" id="banner">
         <div className='container'>
           <a class="navbar-brand" href="#">
